@@ -1,0 +1,40 @@
+.wall
+{
+    display: grid;
+    grid-template-areas:
+            "n n n"
+            "m m m"
+            "p p p";
+    grid-template-rows: 3fr 1fr 10fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.content
+{
+
+    background-color: darkgoldenrod;
+    grid-area: c;
+}
+.content  img
+{
+    width: 100%;
+    height: 220px;
+    background-color: darkgoldenrod;
+    grid-area: c;
+}
+.posts
+{
+    display: grid;
+    grid-area: p;
+    align-items: center;
+    justify-content: center;
+}
+.new
+{
+    display: grid;
+    grid-area: n;
+}
+.my
+{
+    display: grid;
+    grid-area: m;
+}

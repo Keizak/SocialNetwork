@@ -1,14 +1,15 @@
 import React from "react";
-import classes from './NavBar.module.css';
+import style from './css.module.css';
 
 function NavBar()
 {
     return (
-        <nav className={classes.nav}>
-            <div className={classes.items}><a>Profile</a></div>
-            <div className={classes.items}><a>Messages</a></div>
-            <div className={classes.items}><a>News</a></div>
-            <div className={classes.items}><a>Music</a></div>
+        <nav className={style.nav}>
+            <div className={style.items}><a href="/Profile">Profile</a></div>
+            <div className={style.items}><a href="/Dialogs">Messages</a></div>
+            <div className={style.items}><a href="/News">News</a></div>
+            <div className={style.items}><a href="/Music">Music</a></div>
+            <div className={style.items}><a href="/Settings">Settings</a></div>
         </nav>
     )
 };

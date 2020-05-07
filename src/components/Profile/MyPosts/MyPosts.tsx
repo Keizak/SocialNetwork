@@ -1,14 +1,21 @@
 import React from "react";
-import classes from './MyPosts.module.css';
+import style from './css.module.css';
+import Post from "./Post/Post";
 
-function MyPosts()
+function MyWall()
 {
     return (
-        <div className={classes.content}>My posts
-            <div>New Posts</div>
-            <div>Post 1</div>
-            <div>Post 2</div>
+        <div className={style.wall}>My wall
+            <div className={style.new}>New Posts</div>
+            <div className={style.posts}>My posts
+                <Post />
+                <Post />
+                <Post />
+                <Post />
+            </div>
+
         </div>
+
     )
 };
-export default MyPosts;
+export default MyWall;

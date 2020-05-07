@@ -11,3 +11,9 @@
     background-color: darkgoldenrod;
     grid-area: c;
 }
+.items
+{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
