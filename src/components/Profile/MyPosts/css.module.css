@@ -1,12 +1,9 @@
 .wall
 {
-    display: grid;
-    grid-template-areas:
-            "n n n"
-            "m m m"
-            "p p p";
-    grid-template-rows: 3fr 1fr 10fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .content
 {
@@ -28,13 +25,19 @@
     align-items: center;
     justify-content: center;
 }
-.new
+.newpost
 {
-    display: grid;
-    grid-area: n;
+    display: flex;
+    align-content: space-evenly;
 }
-.my
+.newpost textarea
 {
-    display: grid;
-    grid-area: m;
+    height: 75px;
+    width: 400px;
+}
+.newpost button
+{
+    height: 35px;
+    width: 75px;
+
 }
