@@ -10,12 +10,13 @@
 }
 .app-wraper-content
 {
+  padding: 10px;
   background-color: darkgoldenrod;
   grid-area: c;
 }
 .app-wraper-content  img
 {
-  width: 100%;
+  width: 80%;
   height: 220px;
   background-color: darkgoldenrod;
   grid-area: c;

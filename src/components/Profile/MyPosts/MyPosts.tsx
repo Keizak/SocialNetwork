@@ -1,8 +1,8 @@
 import React from "react";
 import style from './css.module.css';
-import Post from "./Post/Post";
+import {postsElements} from "./PostsData/PostsData";
 
-function MyWall()
+function MyPosts()
 {
     return (
         <div className={style.wall}>
@@ -12,13 +12,11 @@ function MyWall()
             </div>
 
             <div className={style.posts}>My posts
-                <Post />
-                <Post />
-
+                {postsElements}
             </div>
 
         </div>
 
     )
 };
-export default MyWall;
+export default MyPosts;

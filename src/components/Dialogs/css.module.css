@@ -8,30 +8,8 @@
     padding: 50px;
 }
 
-.dialog {
-
-}
 
 .messages {
     padding: 50px;
 }
-.message {
-    display: grid;
-    grid-template-columns: 2fr 10fr;
-    align-items: center;
-    width: 400px;
-    height: 300px;
 
-    border: 1px solid;
-}
-.ava {
-    display: flex;
-   flex-direction: column;
-    align-items: center;
-}
-.ava img {
-    padding: 50px;
-    height: 100px;
-    width: 100px;
-    border-radius: 100%;
-}
